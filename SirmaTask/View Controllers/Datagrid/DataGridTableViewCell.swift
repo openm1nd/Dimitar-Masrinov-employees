@@ -19,5 +19,10 @@ class DataGridTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func setup(_ data: ProcessedDataItem) {
+        textLabel?.text = "Employees: \(data.empID) & \(data.otherEmpID)"
+        detailTextLabel?.text = "Project:  \(data.projectID) Total days: \(data.daysWorked)"
+    }
 
 }

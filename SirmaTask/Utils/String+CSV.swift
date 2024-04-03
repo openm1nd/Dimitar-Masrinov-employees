@@ -8,20 +8,26 @@
 import Foundation
 
 extension String {
-    func parseCSV() -> [DataRow] throws {
+    func parseCSV<T: CSVProtocol>(separator: String = ",", requiredColumns: Int = 0) throws -> [T]  {
         let rows = split(separator: "\n")
-        if rows.first != "EmpID, ProjectID, DateFrom, DateTo" {
-            throw ParseError.parseError
+        if rows.count == 0 {
+            throw ParseError.parseError(message: "No data rows")
         }
         
-        let datagrid = rows.map({$0.split(separator: ",").map{$0.trim()}})
-        if datagrid.count == 0 {
-            throw ParseError.invalidContent
+        var datagrid: [T] = []
+        for row in rows {
+            let r = row.split(separator: separator)
+            if r.count != requiredColumns {
+                throw ParseError.parseError(message: "Invalid format")
+            }
+            
+            try datagrid.append(T(data: r))
+          //  r
+            //T($0)
+          //  T($0)
         }
-        print(datagrid)
-    }
-    
-    func csvData() {
         
+        
+        return datagrid
     }
 }

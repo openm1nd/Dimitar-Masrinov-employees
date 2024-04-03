@@ -7,6 +7,5 @@
 
 import Foundation
 enum ParseError: Error {
-    case parseError
-    case invalidContent
+    case parseError(message: String)
 }

@@ -6,3 +6,6 @@
 //
 
 import Foundation
+protocol CSVProtocol {
+    init(data: [Substring.SubSequence]) throws
+}

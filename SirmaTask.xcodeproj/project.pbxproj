@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		6D20B4972BBBFAF400680397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4962BBBFAF400680397 /* AppDelegate.swift */; };
 		6D20B4992BBBFAF400680397 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4982BBBFAF400680397 /* SceneDelegate.swift */; };
-		6D20B49B2BBBFAF400680397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B49A2BBBFAF400680397 /* ViewController.swift */; };
+		6D20B49B2BBBFAF400680397 /* DatagridTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B49A2BBBFAF400680397 /* DatagridTableViewController.swift */; };
 		6D20B49E2BBBFAF400680397 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6D20B49D2BBBFAF400680397 /* Base */; };
 		6D20B4A02BBBFAF500680397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D20B49F2BBBFAF500680397 /* Assets.xcassets */; };
 		6D20B4A32BBBFAF500680397 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6D20B4A22BBBFAF500680397 /* Base */; };
+		6D20B4AD2BBBFB5D00680397 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4AC2BBBFB5D00680397 /* InitialViewController.swift */; };
+		6D20B4B12BBC095000680397 /* InitialViewController+DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4B02BBC095000680397 /* InitialViewController+DocumentPicker.swift */; };
+		6D20B4B32BBC1BB000680397 /* String+CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4B22BBC1BB000680397 /* String+CSV.swift */; };
+		6D20B4B52BBC1EDB00680397 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4B42BBC1EDB00680397 /* Errors.swift */; };
+		6D20B4B82BBC228400680397 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4B72BBC228400680397 /* DataItem.swift */; };
+		6D20B4BA2BBC237400680397 /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4B92BBC237400680397 /* String+Trim.swift */; };
+		6D20B4BD2BBC29D100680397 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4BC2BBC29D100680397 /* Date+String.swift */; };
+		6D20B4BF2BBC2A2C00680397 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4BE2BBC2A2C00680397 /* InitialViewModel.swift */; };
+		6D20B4C12BBC4FDC00680397 /* Substring+Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4C02BBC4FDC00680397 /* Substring+Cast.swift */; };
+		6D20B4C32BBC53C200680397 /* DatagridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4C22BBC53C200680397 /* DatagridViewModel.swift */; };
+		6D20B4C52BBC575C00680397 /* DataGridTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4C42BBC575C00680397 /* DataGridTableViewCell.swift */; };
+		6D20B4C72BBC5A2D00680397 /* CSVProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4C62BBC5A2D00680397 /* CSVProtocol.swift */; };
+		6D20B4C92BBC5BCD00680397 /* DateFormatterMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4C82BBC5BCD00680397 /* DateFormatterMultiple.swift */; };
+		6D20B4CB2BBC648800680397 /* ProcessedDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20B4CA2BBC648800680397 /* ProcessedDataItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D20B4932BBBFAF400680397 /* SirmaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SirmaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D20B4962BBBFAF400680397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D20B4982BBBFAF400680397 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D20B49A2BBBFAF400680397 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D20B49A2BBBFAF400680397 /* DatagridTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatagridTableViewController.swift; sourceTree = "<group>"; };
 		6D20B49D2BBBFAF400680397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D20B49F2BBBFAF500680397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D20B4A22BBBFAF500680397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D20B4A42BBBFAF500680397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D20B4AC2BBBFB5D00680397 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		6D20B4B02BBC095000680397 /* InitialViewController+DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InitialViewController+DocumentPicker.swift"; sourceTree = "<group>"; };
+		6D20B4B22BBC1BB000680397 /* String+CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CSV.swift"; sourceTree = "<group>"; };
+		6D20B4B42BBC1EDB00680397 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		6D20B4B72BBC228400680397 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		6D20B4B92BBC237400680397 /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
+		6D20B4BC2BBC29D100680397 /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
+		6D20B4BE2BBC2A2C00680397 /* InitialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
+		6D20B4C02BBC4FDC00680397 /* Substring+Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Substring+Cast.swift"; sourceTree = "<group>"; };
+		6D20B4C22BBC53C200680397 /* DatagridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatagridViewModel.swift; sourceTree = "<group>"; };
+		6D20B4C42BBC575C00680397 /* DataGridTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGridTableViewCell.swift; sourceTree = "<group>"; };
+		6D20B4C62BBC5A2D00680397 /* CSVProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVProtocol.swift; sourceTree = "<group>"; };
+		6D20B4C82BBC5BCD00680397 /* DateFormatterMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterMultiple.swift; sourceTree = "<group>"; };
+		6D20B4CA2BBC648800680397 /* ProcessedDataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessedDataItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,69 @@
 		6D20B4952BBBFAF400680397 /* SirmaTask */ = {
 			isa = PBXGroup;
 			children = (
+				6D20B4AA2BBBFB1B00680397 /* View Controllers */,
+				6D20B4B62BBC227400680397 /* Models */,
+				6D20B4BB2BBC242C00680397 /* Utils */,
 				6D20B4962BBBFAF400680397 /* AppDelegate.swift */,
 				6D20B4982BBBFAF400680397 /* SceneDelegate.swift */,
-				6D20B49A2BBBFAF400680397 /* ViewController.swift */,
 				6D20B49C2BBBFAF400680397 /* Main.storyboard */,
 				6D20B49F2BBBFAF500680397 /* Assets.xcassets */,
 				6D20B4A12BBBFAF500680397 /* LaunchScreen.storyboard */,
 				6D20B4A42BBBFAF500680397 /* Info.plist */,
 			);
 			path = SirmaTask;
+			sourceTree = "<group>";
+		};
+		6D20B4AA2BBBFB1B00680397 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D20B4AF2BBC07E300680397 /* Datagrid */,
+				6D20B4AB2BBBFB2600680397 /* Initial */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6D20B4AB2BBBFB2600680397 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				6D20B4AC2BBBFB5D00680397 /* InitialViewController.swift */,
+				6D20B4B02BBC095000680397 /* InitialViewController+DocumentPicker.swift */,
+				6D20B4BE2BBC2A2C00680397 /* InitialViewModel.swift */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		6D20B4AF2BBC07E300680397 /* Datagrid */ = {
+			isa = PBXGroup;
+			children = (
+				6D20B49A2BBBFAF400680397 /* DatagridTableViewController.swift */,
+				6D20B4C22BBC53C200680397 /* DatagridViewModel.swift */,
+				6D20B4C42BBC575C00680397 /* DataGridTableViewCell.swift */,
+			);
+			path = Datagrid;
+			sourceTree = "<group>";
+		};
+		6D20B4B62BBC227400680397 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D20B4B72BBC228400680397 /* DataItem.swift */,
+				6D20B4CA2BBC648800680397 /* ProcessedDataItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D20B4BB2BBC242C00680397 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6D20B4B42BBC1EDB00680397 /* Errors.swift */,
+				6D20B4B22BBC1BB000680397 /* String+CSV.swift */,
+				6D20B4B92BBC237400680397 /* String+Trim.swift */,
+				6D20B4BC2BBC29D100680397 /* Date+String.swift */,
+				6D20B4C02BBC4FDC00680397 /* Substring+Cast.swift */,
+				6D20B4C62BBC5A2D00680397 /* CSVProtocol.swift */,
+				6D20B4C82BBC5BCD00680397 /* DateFormatterMultiple.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +220,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D20B49B2BBBFAF400680397 /* ViewController.swift in Sources */,
+				6D20B4CB2BBC648800680397 /* ProcessedDataItem.swift in Sources */,
+				6D20B4B12BBC095000680397 /* InitialViewController+DocumentPicker.swift in Sources */,
+				6D20B4B32BBC1BB000680397 /* String+CSV.swift in Sources */,
+				6D20B4C92BBC5BCD00680397 /* DateFormatterMultiple.swift in Sources */,
+				6D20B4C32BBC53C200680397 /* DatagridViewModel.swift in Sources */,
+				6D20B4BA2BBC237400680397 /* String+Trim.swift in Sources */,
+				6D20B4B82BBC228400680397 /* DataItem.swift in Sources */,
+				6D20B49B2BBBFAF400680397 /* DatagridTableViewController.swift in Sources */,
+				6D20B4C72BBC5A2D00680397 /* CSVProtocol.swift in Sources */,
 				6D20B4972BBBFAF400680397 /* AppDelegate.swift in Sources */,
+				6D20B4C52BBC575C00680397 /* DataGridTableViewCell.swift in Sources */,
+				6D20B4AD2BBBFB5D00680397 /* InitialViewController.swift in Sources */,
+				6D20B4BF2BBC2A2C00680397 /* InitialViewModel.swift in Sources */,
 				6D20B4992BBBFAF400680397 /* SceneDelegate.swift in Sources */,
+				6D20B4BD2BBC29D100680397 /* Date+String.swift in Sources */,
+				6D20B4C12BBC4FDC00680397 /* Substring+Cast.swift in Sources */,
+				6D20B4B52BBC1EDB00680397 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +391,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SirmaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -306,9 +402,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bg.apps.SirmaTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +422,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SirmaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -333,9 +433,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bg.apps.SirmaTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

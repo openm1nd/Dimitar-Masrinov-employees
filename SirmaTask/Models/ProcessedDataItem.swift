@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct ProcessedDataItem {
+    let empID: Int
+    let otherEmpID: Int
+    let projectID: Int
+    let daysWorked: Int
+}

@@ -1,21 +1,28 @@
 //
-//  InitialDocumentPickerViewController.swift
+//  InitialViewController.swift
 //  SirmaTask
 //
 //  Created by Dimitar Marinov on 2.04.24.
 //
 
 import UIKit
+import MobileCoreServices
+import UniformTypeIdentifiers
 
-class InitialDocumentPickerViewController: UIViewController {
-    
+class InitialViewController: UIViewController {
     
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var pickFileButton: UIButton!
     @IBOutlet weak var showResultsButton: UIButton!
     
+    var viewModel = InitialViewModel()
+    
     @IBAction func onPickFile() {
+        let uts = [UTType.text]
+        let documentPicker = UIDocumentPickerViewController(forOpeningContentTypes: uts)
+        documentPicker.delegate = self
         
+        present(documentPicker, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -25,8 +32,9 @@ class InitialDocumentPickerViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        (segue.destination as? DatagridTableViewController)?.setParsedData(viewModel.parsedData)
     }
+    
     /*
     // MARK: - Navigation
 
